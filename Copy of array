@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    float marks[5];
+    float marks_copy[5];
+    
+    for (int i=0;i<5;i++)
+    {
+        cin>>marks[i];
+    }    
+    
+    for (int i=0;i<5;i++)
+    {
+        marks_copy[i]=marks[i];
+        cout<<marks_copy[i];
+    }
+    
+    return 0;
+}
